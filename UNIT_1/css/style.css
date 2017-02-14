@@ -2,6 +2,19 @@ body {
     background-color: teal;
 }
 
-h1, p {
+h1 {
     color: white;
-}
+   
+    }
+    p {
+    color: white;
+    }
+    
+   article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+      text-align: center;
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;}
+
+    }
