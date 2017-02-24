@@ -1,13 +1,11 @@
 body {
-    background-color: teal;
+    background-color: white;
     max-width: 500px;
       padding: 20px;
       margin: 0 auto;
       text-align: center;
       font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-      color: white;
-      font-weight: normal;
+      color: grey;
 }
-
 
     }
