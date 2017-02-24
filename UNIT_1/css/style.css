@@ -1,14 +1,18 @@
 body {
     background-color: white;
-    max-width: 900px;
+    max-width: 500px;
       padding: 20px;
       margin: 0 auto;
       text-align: center;
       font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
       color: grey;
+
 }
 
      li {
     display: inline;
     padding: 0px 10px 0px 10px;
   }
+img {
+  float: left;
+}
