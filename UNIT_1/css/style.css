@@ -14,5 +14,7 @@ body {
     padding: 0px 10px 0px 10px;
   }
 img {
-  float: left;
+    vertical-align: middle;
+    max-height: 25px;
+    max-width: 160px;
 }
