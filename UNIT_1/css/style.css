@@ -8,6 +8,7 @@ body {
       font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
       color: grey;
 
+
 }
 li {
     display: inline;
@@ -19,3 +20,8 @@ a {
      text-decoration: none;
      color: grey;
 }
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
