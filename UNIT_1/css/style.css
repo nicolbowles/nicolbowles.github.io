@@ -2,7 +2,7 @@ body {
     background-color: white;
 </body>;
     max-width: 500px;
-      padding: 20px;
+      padding: 10px;
       margin: 0 auto;
       text-align: center;
       font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -13,15 +13,9 @@ body {
 li {
     display: inline;
     padding: 0px 10px 0px 10px;
-    color: grey;
   }
 }
 a {
-     text-decoration: none;
-     color: grey;
+     text-decoration: none;   
 }
-IMG.displayed {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+
