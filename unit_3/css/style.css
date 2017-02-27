@@ -1,14 +1,11 @@
 body {
     background-color: white;
-</body>;
     max-width: 500px;
       padding: 40px;
       margin: 0 auto;
       text-align: center;
       font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
       color: grey;
-
-
 }
 ul {
     text-align: center;
