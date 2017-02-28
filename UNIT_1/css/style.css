@@ -9,6 +9,7 @@ body {
 ul {
     text-align: center;
     list-style-type: none;
+    font-weight: bold;
 }
 li {
     display: inline;
