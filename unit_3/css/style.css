@@ -3,6 +3,7 @@
 h1 {
   font-family: 'Scope One', cursive;
   font-size: 5em;
+  color: black;
 }
 body {
     background-color: white;
@@ -25,6 +26,6 @@ li {
 }
 a {
      text-decoration: none; 
-     text-decoration-color: black;  
+     color: black;  
 }
 
