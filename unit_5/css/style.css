@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Scope+One|Droid+Serif');
+
+h1 {
+  font-family: 'Scope One', cursive;
+  font-size: 4em;
+  color: black;
+}
+body {
+    background-color: white;
+      margin: 0 auto;
+      text-align: center;
+      font-family: 'Droid Serif', serif;
+      font-size: 1em;
+}
+ul {
+    text-align: center;
+    list-style-type: none;
+    font-weight: normal;
+}
+li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+a {
+     text-decoration: none; 
+     color: black;  
+}
+
+img {
+  width: 500px;
+}
+
