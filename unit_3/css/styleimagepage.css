@@ -56,11 +56,14 @@ clear: both;
     position: relative;
 }
 
-
 img {
-  max-width: 600px;
-    height: auto;
+  width: 600;
   padding: 2em;
-  position: center;
-  padding-left: 2em;
 }
+
+
+#wrapper {
+    height: 1000px;
+    position: relative;
+}
+
