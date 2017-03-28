@@ -2,21 +2,18 @@
 
 h1 {
   font-family: 'Scope One', cursive;
-  font-size: 4em;
+  font-size: 3.5em;
   color: black;
   text-align: center;
 
 }
 
-p {
-  padding-left: 1em;
-}
 body {
     background-color: white;
       margin: 0 auto;
       text-align: center;
       font-family: 'Droid Serif', serif;
-      font-size: 1em;
+      font-size: 1.5em;
 }
 ul {
     text-align: center;
@@ -58,9 +55,9 @@ clear: both;
 
 
 img {
-  max-width: 600px;
+    max-width: 75%;
     height: auto;
-  padding: 2em;
-  position: center;
-  padding-left: 2em;
+    padding: 2em;
+    position: center;
+    padding-left: 2em;
 }
