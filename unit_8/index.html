@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Nicol Bowles Photography</title>
+</head>
+<body>
+ <header>
+     <h1><a href="index.html">n e n n e n q u i</a></h1>
+    <ul>
+      <li><a href="project.html"> about </a></li>
+      <li><a href="imagepage.html"> life </a></li>
+      <li><a href=""> art </a></li>
+      <li><a href=""> contact </a></li>
+    </ul>
+    </header>
+    
+    </header>
+  
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="artwork/portfolio7.jpg" style="width:100%">
+ 
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="artwork/portfolio2.jpg" style="width:100%">
+ 
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="artwork/portfolio3.jpg" style="width:100%">
+  
+</div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 6000); // Change image every 2 seconds
+}
+</script>
+
+
+
+
+
+
+   
+   <div id="wrapper">
+    <div id="footer">
+    
+  &copy; 2017 Nicol Bowles. All rights reserved.
+
+ </div>
+    
+
+</body>
+</html>

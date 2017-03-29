@@ -8,6 +8,9 @@ h1 {
 
 }
 
+p {
+  padding-left: 1em;
+}
 body {
     background-color: white;
       margin: 0 auto;
@@ -52,7 +55,6 @@ clear: both;
     position: relative;
 }
 
-
 img {
     max-width: 75%;
     height: auto;
@@ -60,3 +62,14 @@ img {
     position: center;
     padding-left: 2em;
 }
+
+#about {
+    display: inline-block;
+text-align: center;
+padding: 2em;
+padding-top: 1em;
+font-size: 1em;
+clear: both;
+position: relative;
+}
+
