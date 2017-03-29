@@ -60,7 +60,9 @@ img {
     position: center;
     padding-left: 2em;
 }
-
+h2 {
+  padding: 2em;
+}
 
 
 /* On smaller screens, decrease text size */
