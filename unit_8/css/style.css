@@ -22,7 +22,7 @@ ul {
 }
 li {
     display: inline-block;
-    padding: 0 1em 0 1em;
+    padding: 0 1em 2em 1em;
 }
 a {
 color: black; 
@@ -53,14 +53,6 @@ clear: both;
 }
 
 
-img {
-    max-width: 75%;
-    height: auto;
-    padding: 2em;
-    position: center;
-    padding-left: 2em;
-}
-
 
 
 
@@ -73,21 +65,11 @@ body {font-family: 'Scope One', serif;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1200px;
+  max-width: 90%;
   position: relative;
   margin: auto;
 }
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
 
 
 /* The dots/bullets/indicators */
@@ -127,8 +109,3 @@ body {font-family: 'Scope One', serif;}
 @media only screen and (max-width: 800px) {
   .text {font-size: 11px}
 
-  img {
-    max-width: 95%;
-    min-width: 80%
-  }
-}

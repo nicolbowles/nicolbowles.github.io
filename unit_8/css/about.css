@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Scope+One|Droid+Serif');
+
+h1 {
+  font-family: 'Scope One', cursive;
+  font-size: 3em;
+  color: black;
+  text-align: center;
+padding-left: .5em;
+}
+
+body {
+    background-color: white;
+      margin: 0 auto;
+      text-align: center;
+      font-family: 'Droid Serif', serif;
+      font-size: 1em;
+}
+ul {
+    text-align: center;
+    list-style-type: none;
+    font-weight: normal;
+}
+li {
+    display: inline-block;
+    padding: 0 1em 2em 1em;
+  }
+  
+
+p {
+ background-color: white;
+      margin: 2em auto;
+      text-align: center;
+      font-size: 1em;
+  padding: 2em;
+}
+
+a {
+color: black; 
+background: white;
+  -o-transition:color .2s ease-out, background 1s ease-in;
+  -ms-transition:color .2s ease-out, background 1s ease-in;
+  -moz-transition:color .2s ease-out, background 1s ease-in;
+  -webkit-transition:color .2s ease-out, background 1s ease-in;
+  transition:color .2s ease-out, background 1s ease-in;
+    text-decoration: none; 
+}
+
+a:hover {
+color: grey;
+}
+
+#footer {
+
+display: inline-block;
+text-align: center;
+padding: 1.8em;
+font-size: .5em;
+clear: both;
+}
+
+#wrapper {
+    position: relative;
+}
+#about {
+  padding: 0 4em 0 4em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    position: center;
+
+
+}
+
+#about {
+    display: inline-block;
+text-align: center;
+padding: 2em;
+padding-top: 1em;
+font-size: 1em;
+clear: both;
+position: relative;
+}
+
+
+body {font-family: 'Scope One', serif;}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 800px) {
+  .text {font-size: 11px}
+\

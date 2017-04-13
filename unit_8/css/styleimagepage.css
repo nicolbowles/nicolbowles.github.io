@@ -22,8 +22,9 @@ ul {
 }
 li {
     display: inline-block;
-    padding: 0 1em 0 1em;
-}
+    padding: 0 1em 2em 1em;
+  }
+
 a {
 color: black; 
 background: white;
@@ -52,25 +53,13 @@ clear: both;
     position: relative;
 }
 
-
 img {
-    max-width: 75%;
+    max-width: 100%;
     height: auto;
-    padding: 2em;
     position: center;
-    padding-left: 2em;
-}
-h2 {
-  padding: 2em;
 }
 
+* {box-sizing:border-box}
+body {font-family: 'Scope One', serif;}
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 800px) {
-  .text {font-size: 11px}
 
-  img {
-    max-width: 95%;
-    min-width: 80%
-  }
-}
